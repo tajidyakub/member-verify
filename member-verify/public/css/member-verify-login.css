@@ -1,0 +1,19 @@
+/** 
+ * CSS for the login form.
+ */
+
+.mv-confirmation-notice {
+  border: 1px solid #ececec;
+  padding: 0.6rem;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.mv-plugin-label {
+  font-size: smaller;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ececec;
+  padding: 0.2rem 0.6rem;
+}

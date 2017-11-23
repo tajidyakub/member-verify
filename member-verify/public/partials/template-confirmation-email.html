@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>[{{ mail_web_name }}]{{ mail_title }}</title>
+</head>
+<style>
+	.mv-confirmation-notice {
+		border: 1px solid #ececec;
+		padding: 1rem;
+		position: relative;
+		padding-bottom: 2rem;
+		margin: 0 auto;
+		margin-top: 2rem;
+		width: 100%;
+		max-width: 20rem;
+	}
+
+	.mv-confirmation-notice h1 {
+		margin-top: 1.5rem;
+	}
+
+	.mv-confirmation-notice .btn-confirmation {
+		background-color: #0a84ff;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+		border: 2px solid #0060df;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		padding: 0.4rem;
+	}
+
+	.mv-plugin-label {
+		font-size: smaller;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: #ececec;
+		padding: 0.2rem 0.6rem;
+	}
+</style>
+
+<body>
+	<div class="mv-confirmation-notice">
+		<h1>{{ mail_body_title }}</h1>
+		<p>Dear {{ mail_user }}, </p>
+		<p>
+			{{ mail_notice }}
+		</p>
+		<br/>
+		<a href="{{ mail_confirmation_url }}" class="btn-confirmation">{{ mail_confirmation_text }}</a>
+		<span class="mv-plugin-label">
+			<a href="{{ plugin_link }}">{{ plugin_name }}
+				<strong>v.{{ plugin_version }}</strong>
+			</a>
+		</span>
+	</div>
+</body>
+
+</html>
