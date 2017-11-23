@@ -1,5 +1,7 @@
 # Member Verify WordPress Plugin
 
+**Contributor** : Tajid Yakub <tajid.yakub@gmail.com>
+
 ## What is Member Verify
 
 Member Verify is a WordPress Plugin which does these;
@@ -22,7 +24,7 @@ Member Verify is a WordPress Plugin which does these;
 ## Installation
 
 To install manually in a WordPress installation, download a released version in ./releases folder.
-The current release is ver. 1.0.0 which can be downloaded directly from this link **Download Member Verify WordPress Plugin v. 1.0.0**
+The current release is ver. 1.0.0 which can be downloaded directly from this link **[Download Member Verify WordPress Plugin v. 1.0.0](https://github.com/tajidyakub/member-verify/blob/master/releases/member-verify-current.zip)**
 
 The compressed plugin can be uploaded from WordPress Plugin's Management interface.
 
