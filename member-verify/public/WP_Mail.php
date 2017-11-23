@@ -240,7 +240,7 @@ Class WP_Mail
 			}
 		}
 
-		return $template;
+		return "{$template}";
 	}
 
 
@@ -280,10 +280,14 @@ Class WP_Mail
 		if(empty($this->template)){
 			throw new Exception('You must set a template');
 		}
-
+		/*
 		if($this->sendAsHTML){
-			add_filter('wp_mail_content_type', ['WP_Mail', 'HTMLFilter']);
+			add_filter('wp_mail_content_type', function( $content_type ) {
+					return 'multipart/alternative';
+				}
+			);
 		}
+		*/
 	}		
 
 

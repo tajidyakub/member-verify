@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://tajidyakub.com/
- * @since             1.0.0
+ * @since             1.1.0
  * @package           Member_Verify
  *
  * @wordpress-plugin
  * Plugin Name:       Member Verify
  * Plugin URI:        https://github.com/tajidyakub/member-verify
  * Description:       Send confirmation link via email when user register.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Tajid Yakub
  * Author URI:        https://tajidyakub.com/
  * License:           GPL-2.0+
@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
 $plugins_dir = plugin_dir_path( __FILE__ );
 $plugins_url = plugin_dir_url( __FILE__ );
 // Plugin global constants.
-define( 'MV_VERSION', '1.0.0' );
+define( 'MV_VERSION', '1.1.0' );
 define( 'MV_NAME', 'member-verify' );
 define( 'MV_PACKAGE', 'Member_Verify' );
 define( 'MV_DIR', $plugins_dir );

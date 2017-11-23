@@ -14,7 +14,12 @@ Member Verify is a WordPress Plugin which does these;
 
 ## Features
 
-### Current Release v.1.0.0
+### Change Log Release v. 1.1.0
+
+* Enable `mutipart/alternate` as the `Content-Type` of the email sends which create an email with two version of type, text/plain and text/html
+* This is done via `wp_mail_content_type` filter which added and remove before and after sending mails complete
+
+### Release v.1.0.0
 
 * Redirect page after registration
 * Generate a random token for the user
